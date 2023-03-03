@@ -7,42 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio Landing Page</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
-<!-- bg-gradient-to-b from-[#7d8ac4] to-[#f2f3f8] -->
 <body>
-    <div class="main flex flex-col w-screen m-auto xl:[80vw] xl:m-auto ">
-        <div class="top min-h-screen w-full flex items-center justify-center"
-            style="background: url('./Images/bg.jpg') no-repeat center center/cover;">
-            <div class="nav-mid w-full min-h-screen flex flex-col gap-40 text-white sm:px-6 lg:px-0 lg:w-[80%] lg:m-auto xl:w-[80%] " >
+    <div class="main flex flex-col m-auto xl:[80vw] xl:m-auto">
+        <div class="top min-h-screen w-full flex items-center justify-center "
+            style="background: url('./Images/bg.jpg') no-repeat center center/cover;" id="home">
+            <div
+                class="nav-mid w-full min-h-screen flex flex-col gap-40 text-white sm:px-6 lg:px-0 lg:w-[80%] lg:m-auto xl:w-[80%] 2xl:gap-10">
                 <nav class="px-4 flex items-center justify-between md:gap-5 lg:px-0">
                     <div class="logo py-4 lg:px-0">
-                        <h1 class="font-bold text-lg">Jhon Doe</h1>
+                        <a
+                            href="/" class="font-bold  text-lg py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0 hover:cursor-pointer">
+                            John Doe</a>
                     </div>
                     <div
-                        class="hidden routes absolute h-fit text-left gap-8 top-16  right-0 left-0 bottom-0 bg-white md:static md:bg-inherit md:text-white md:flex md:flex-row md:justify-end md:h-auto">
-                        <li before="" class="list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  "><a
-                                class="" href="">Home</a></li>
-                        <li before="" class="list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  "><a
-                                class="" href="">About</a></li>
-                        <li before="" class="list-none text-[#7d8ac4] font-bold mx-16 py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  "><a
-                                class="" href="">PortFolio</a></li>
-                        <li before="" class="list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  "><a
-                                class="" href="">Testmonial</a></li>
-                        <li before="" class="list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  "><a
-                                class="" href="">Contact</a></li>
-                        <li before="" class="list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  ">
-        
+                        class="hidden routes text-center absolute h-fit  gap-8 top-16  right-0 left-0 bottom-0 bg-white md:static md:bg-inherit md:text-white md:flex md:flex-row md:justify-end md:h-auto">
+                        <li  before=""
+                            class="navlist list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0 ">
+                            <a href="#home" class="cursor-pointer">Home</a></li>
+                        <li before=""
+                            class="navlist list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0 ">
+                            <a href="#about" class="cursor-pointer">About</a></li>
+                        <li before=""
+                            class="navlist list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0 ">
+                            <a href="#portfolio" class="cursor-pointer">PortFolio</a></li>
+                        <li before=""
+                            class="navlist list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  ">
+                            <a href="#testmonial" class="cursor-pointer">Testmonial</a></li>
+                        <li before=""
+                            class="navlist list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  ">
+                            <a href="#blog" class="cursor-pointer">Blog</a></li>
+                        <li before=""
+                            class="navlist list-none text-[#7d8ac4] font-bold  py-2 relative before:content-[attr(before)] before:absolute before:right-0 before:bottom-0 before:left-0 before:top-[1]  before:bg-[white] before:h-[2px] before:opacity-0 before:scale-x-0 before:origin-left before:duration-300 before:hover:opacity-100 hover:before:transition-transform before:hover:scale-x-100 md:text-white md:m-0  ">
+                            <a href="#contact" class="cursor-pointer">Contact</a></li>
                     </div>
-                    <div class="hamburger cursor-pointer md:hidden">
-                        <div class="line w-8 h-1 bg-white rounded-sm my-1"></div>
-                        <div class="line w-8 h-1 bg-white rounded-sm my-1"></div>
-                        <div class="line w-8 h-1 bg-white rounded-sm my-1"></div>
+                    <div class="hamburger cursor-pointer md:hidden" id="hamburger">
+                        <div class="line w-[40px] h-1 bg-white rounded-sm my-1"></div>
+                        <div class="line w-[40px] h-1 bg-white rounded-sm my-1"></div>
+                        <div class="line w-[40px] h-1 bg-white rounded-sm my-1"></div>
                     </div>
                 </nav>
-                <div class="mid text-black flex flex-col gap-2 mx-12 text-left md:text-center lg:text-left lg:m-auto">
-                    <h1 class="text-4xl font-bold text-[#444] lg:text-5xl">Hii!</h1>
-                    <h1 class="text-4xl font-bold text-[#201f1f] lg:text-6xl">I am John Doe</h1>
-                    <p class="text-sm mb-10 lg:text-2xl">FRONTEND WEB DESIGNER</p>
+                <div
+                    class="mid text-black flex flex-col items-center gap-2 mx-12 text-left md:text-center lg:text-left lg:m-auto">
+                    <h1 class="text-3xl font-bold text-[#444] lg:text-5xl sm:text-2xl">Hii!</h1>
+                    <h1 class="text-2xl font-bold text-[#201f1f] lg:text-6xl">I am John Doe</h1>
+                    <p class="text-sm mb-10 lg:text-2xl ">FRONTEND WEB DESIGNER</p>
                     <button class="bg-[#695aa6] border-[#695aa6] text-white w-40 px-2 py-2 rounded-lg">Visit My
                         Works</button>
                 </div>
@@ -50,7 +60,7 @@
 
         </div>
         <div
-            class="about  flex flex-col justify-around items-center  bg-white  gap-4 text-center sm:px-8 lg:flex-row lg:px-10 lg:gap-5 xl:w-[80%] lg:m-auto">
+            class="about  flex flex-col justify-around items-center  bg-white  gap-4 text-center sm:px-8 lg:flex-row lg:px-10 lg:gap-5 xl:w-[80%] lg:m-auto" id="about">
             <div class="photo lg:w-fit">
                 <img class="h-[300px] lg:w-56 lg:h-[400px]" src="./Images/Employeephoto.png" alt="" srcset="">
             </div>
@@ -71,7 +81,7 @@
             </div>
         </div>
         <div
-            class="services  flex flex-col justify-around    items-center bg-white gap-6 text-center sm:px-8 xl:w-[80%] lg:m-auto">
+            class="services  flex flex-col justify-around items-center bg-white gap-6 text-center sm:px-8 xl:w-[80%] lg:m-auto">
             <div class="p-section">
                 <p class="text-sm lg:text-lg">Who I Do ?</p>
                 <h1 class="text-2xl font-bold text-[#444] lg:text-3xl">Service</h1>
@@ -79,25 +89,25 @@
             <div
                 class="box-container px-4 w-full flex flex-col justify-between items-center gap-10 sm:px-8 sm:w-full lg:flex-row">
                 <div
-                    class="box w-full h-60    border-[#695aa6] flex flex-col justify-center gap-10 items-center rounded-lg ">
+                    class="box w-full h-60 border-[#695aa6] flex flex-col justify-center gap-10 items-center rounded-lg ">
                     <img class="h-20 w-20 " src="https://themewagon.github.io/meyawo/assets/imgs/pencil-case.svg" alt=""
                         srcset="">
                     <h1 class="text-base font-bold text-[#444]">Powerfull</h1>
                 </div>
                 <div
-                    class="box w-full h-60    border-[#695aa6] flex flex-col justify-center gap-10 items-center rounded-lg">
+                    class="box w-full h-60 border-[#695aa6] flex flex-col justify-center gap-10 items-center rounded-lg">
                     <img class="h-20 w-20 " src="https://themewagon.github.io/meyawo/assets/imgs/responsive.svg" alt=""
                         srcset="">
                     <h1 class="text-base font-bold text-[#444]">Great Designs</h1>
                 </div>
                 <div
-                    class="box w-full h-60    border-[#695aa6] flex flex-col justify-center gap-10  items-center rounded-lg">
+                    class="box w-full h-60 border-[#695aa6] flex flex-col justify-center gap-10  items-center rounded-lg">
                     <img class="h-20 w-20 " src="https://themewagon.github.io/meyawo/assets/imgs/toolbox.svg" alt=""
                         srcset="">
                     <h1 class="text-base font-bold text-[#444]">Latest Technologies</h1>
                 </div>
                 <div
-                    class="box w-full h-60    border-[#695aa6] flex flex-col justify-center gap-10  items-center rounded-lg">
+                    class="box w-full h-60 border-[#695aa6] flex flex-col justify-center gap-10  items-center rounded-lg">
                     <img class="h-20 w-20 " src="https://themewagon.github.io/meyawo/assets/imgs/analytics.svg" alt=""
                         srcset="">
                     <h1 class="text-base font-bold text-[#444]">Scalable</h1>
@@ -105,7 +115,7 @@
             </div>
         </div>
         <div
-            class="portfolio bg-white px-4 flex flex-col    justify-around items-center  text-center sm:px-8 xl:w-[80%] lg:m-auto">
+            class="portfolio bg-white px-4 flex flex-col justify-around items-center  text-center sm:px-8 xl:w-[80%] lg:m-auto" id="portfolio">
             <div class="p-section my-5 ">
                 <p class="text-sm lg:text-lg">What I Did ?</p>
                 <h1 class="text-2xl font-bold text-[#444] lg:text-3xl">PortFolio</h1>
@@ -127,7 +137,7 @@
 
         </div>
         <div
-            class="pricing bg-white px-4 flex flex-col    justify-around items-center text-center sm:px-8 xl:w-[80%] lg:m-auto">
+            class="pricing bg-white px-4 flex flex-col justify-around items-center text-center sm:px-8 xl:w-[80%] lg:m-auto">
             <div class="p-section my-10 ">
                 <p class="text-sm lg:text-lg">How Much I Charge ?</p>
                 <h1 class="text-2xl font-bold text-[#444] lg:text-3xl">My Pricing</h1>
@@ -135,7 +145,7 @@
             <div
                 class="items w-full px-4 flex flex-col  justify-evenly items-center gap-10 sm:w-[80%] md:px-0 md:w-[80%] lg:flex-row  lg:w-fit  2xl:flex-row 2xl:gap-5">
                 <div
-                    class="item w-full h-[350px] px-4 flex flex-col justify-around items-center gap-2    border-[#695aa6]  md:w-96 sm:px-8 lg:w-fit  2xl:w-[300px]">
+                    class="item w-full h-[350px] px-4 flex flex-col justify-around items-center gap-2 border-[#695aa6]  md:w-96 sm:px-8 lg:w-fit  2xl:w-[300px]">
                     <i class="fa-solid fa-code fa-2xl px-5 py-5"></i>
                     <h1 class="text-2xl font-bold text-black">Basic</h1>
                     <p class="text-lg">feature 1</p>
@@ -147,7 +157,7 @@
                     <button class="w-24 bg-[#475ab0] text-white px-2 py-2 rounded-lg my-1">Subscribe</button>
                 </div>
                 <div
-                    class="item w-full h-[350px] px-4 flex flex-col justify-around items-center gap-2    border-[#695aa6]  md:w-96 sm:px-8 lg:w-fit 2xl:w-[300px]">
+                    class="item w-full h-[350px] px-4 flex flex-col justify-around items-center gap-2 border-[#695aa6]  md:w-96 sm:px-8 lg:w-fit 2xl:w-[300px]">
                     <i class="fa-solid fa-building fa-2xl px-5 py-5"></i>
                     <h1 class="text-2xl font-bold text-black">Basic</h1>
                     <p class="text-lg">feature 1</p>
@@ -159,7 +169,7 @@
                     <button class="w-24 bg-[#475ab0] text-white px-2 py-2 rounded-lg my-1">Subscribe</button>
                 </div>
                 <div
-                    class="item w-full h-[350px] px-4 flex flex-col justify-around items-center gap-2    border-[#695aa6]  md:w-96 sm:px-8 lg:w-fit 2xl:w-[300px]">
+                    class="item w-full h-[350px] px-4 flex flex-col justify-around items-center gap-2 border-[#695aa6]  md:w-96 sm:px-8 lg:w-fit 2xl:w-[300px]">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 40 40" version="1.1" class="mr3-l" style="height:50px; width:50px;">
                         <g>
@@ -231,7 +241,7 @@
 
         <div
             class="testmonial bg-white px-4 flex flex-col justify-around items-center text-center gap-3 sm:px-8 xl:w-[80%] lg:m-auto">
-            <div class="p-section my-10 ">
+            <div class="p-section my-10" id="testmonial">
                 <p class="text-sm lg:text-lg">What Think Client About Me ?</p>
                 <h1 class="text-2xl font-bold text-[#444] lg:text-3xl">Testmonial</h1>
             </div>
@@ -271,17 +281,15 @@
                             doloremque maiores, adipisci iste nisi illum iusto porro voluptas.</p>
                         <div class="person w-full flex flex-row justify-start items-center gap-5">
                             <img class="rounded-full" src="https://ui-avatars.com/api/?name=Jhon+Doe" />
-                            <h1 class="text-lg font-semibold text-left">Jhon Doe</h1>
+                            <h1 class="text-lg font-semibold text-left">Shankar Doe</h1>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
         <div
-            class="blog bg-white px-4 flex flex-col    justify-around items-center text-center gap-5 my-5 sm:px-8 xl:w-[80%] lg:m-auto">
+            class="blog bg-white px-4 flex flex-col justify-around items-center text-center gap-5 my-5 sm:px-8 xl:w-[80%] lg:m-auto" id="blog">
             <div class="p-section my-10 ">
                 <p class="text-sm lg:text-lg">Recent Posts?</p>
                 <h1 class="text-2xl font-bold text-[#444] lg:text-3xl">Blog</h1>
@@ -299,11 +307,18 @@
 
                         </div>
                         <div class="desc text-justify">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti hic nostrum architecto quae dolorem consequuntur amet beatae sint aut id eveniet veritatis soluta quam optio repudiandae maiores, et molestias repellendus eius maxime quasi?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui atque tempore id beatae esse eos expedita porro nobis quam?</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat exercitationem quos provident a tenetur aliquid? Consequatur rem necessitatibus veritatis reiciendis eos itaque, sint, qui dolores at saepe aliquam numquam rerum minus in distinctio. Iure facere illo cum, perspiciatis possimus debitis!</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti hic nostrum
+                                architecto quae dolorem consequuntur amet beatae sint aut id eveniet veritatis soluta
+                                quam optio repudiandae maiores, et molestias repellendus eius maxime quasi?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui atque tempore id
+                                beatae esse eos expedita porro nobis quam?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat exercitationem quos
+                                provident a tenetur aliquid? Consequatur rem necessitatibus veritatis reiciendis eos
+                                itaque, sint, qui dolores at saepe aliquam numquam rerum minus in distinctio. Iure
+                                facere illo cum, perspiciatis possimus debitis!</p>
                         </div>
-                        <div class="read-more-btn">Read more <i class="fa-solid fa-angles-right"></i></div>
+                        <div class="read-more-btn hover:cursor-pointer">Read more <i
+                                class="fa-solid fa-angles-right"></i></div>
                     </div>
                 </div>
                 <div class="card flex flex-col justify-center items-center gap-2 lg:flex-row">
@@ -318,19 +333,25 @@
 
                         </div>
                         <div class="desc text-justify">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti hic nostrum architecto quae dolorem consequuntur amet beatae sint aut id eveniet veritatis soluta quam optio repudiandae maiores, et molestias repellendus eius maxime quasi?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui atque tempore id beatae esse eos expedita porro nobis quam?</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat exercitationem quos provident a tenetur aliquid? Consequatur rem necessitatibus veritatis reiciendis eos itaque, sint, qui dolores at saepe aliquam numquam rerum minus in distinctio. Iure facere illo cum, perspiciatis possimus debitis!</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti hic nostrum
+                                architecto quae dolorem consequuntur amet beatae sint aut id eveniet veritatis soluta
+                                quam optio repudiandae maiores, et molestias repellendus eius maxime quasi?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui atque tempore id
+                                beatae esse eos expedita porro nobis quam?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat exercitationem quos
+                                provident a tenetur aliquid? Consequatur rem necessitatibus veritatis reiciendis eos
+                                itaque, sint, qui dolores at saepe aliquam numquam rerum minus in distinctio. Iure
+                                facere illo cum, perspiciatis possimus debitis!</p>
                         </div>
-                        <div class="read-more-btn">Read more <i class="fa-solid fa-angles-right"></i></div>
+                        <div class="read-more-btn hover:cursor-pointer">Read more <i
+                                class="fa-solid fa-angles-right"></i></div>
                     </div>
                 </div>
             </div>
 
 
         </div>
-        <div
-            class="contact flex flex-col justify-around    items-center text-center gap-3 sm:px-12 xl:w-[80%] lg:m-auto">
+        <div class="contact flex flex-col justify-around items-center text-center gap-3 sm:px-12 xl:w-[80%] lg:m-auto" id="contact">
             <div class="p-section my-5">
                 <p class="text-sm">How can you communicate?</p>
                 <h1 class="text-2xl font-bold text-[#444]">Contact Me</h1>
@@ -346,8 +367,9 @@
                 </div>
                 <textarea name="something"
                     class="w-full px-3 py-2 rounded-lg border-[1px] border-[#8b7ebc] focus:outline-[#aa9ed7]" cols="30"
-                    rows="10" placeholder="Write Something"></textarea>
-                <button class="btn border-black border-[1px] hover:bg-[#6976b1] hover:text-white cursor-pointer px-2 py-2 rounded-lg text-lg">Send
+                    rows="10" placeholder="Write Something ..."></textarea>
+                <button
+                    class="btn border-black border-[1px] hover:bg-[#6976b1] hover:text-white cursor-pointer px-2 py-2 rounded-lg text-lg">Send
                     Message</button>
             </div>
             <hr>
@@ -356,15 +378,16 @@
         <div class="footer w-full flex flex-col items-center  xl:w-[80%] lg:m-auto ">
             <p>Copyright 2023 &copy; ChaitanyGhadigaonkar</p>
             <div class="social-media flex justify-center items-center gap-5 my-5">
-                <i class="fa-brands fa-facebook-f p-3 border-[#7d8ac4] border-[1px]   rounded-3xl"></i>
+                <i class="fa-brands fa-facebook-f p-3 border-[#7d8ac4] border-[1px] rounded-3xl"></i>
                 <i class="fa-brands fa-twitter p-3 border-[#7d8ac4]  border-[1px]  rounded-3xl"></i>
-                <i class="fa-brands fa-pinterest p-3 border-[#7d8ac4] border-[1px]   rounded-3xl"></i>
+                <i class="fa-brands fa-pinterest p-3 border-[#7d8ac4] border-[1px] rounded-3xl"></i>
                 <i class="fa-brands fa-instagram p-3 border-[#7d8ac4]  border-[1px]  rounded-3xl"></i>
             </div>
         </div>
 
     </div>
     <script src="https://kit.fontawesome.com/b76a81dc76.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
